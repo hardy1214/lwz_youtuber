@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <title>賴維正的個人部落格</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="container">
       <h1>賴維正的部落格</h1>
       <p>身心障礙者．生活故事．YouTube 創作者</p>
+      <button id="toggle-theme">🌗 切換主題</button>
     </div>
   </header>
 
@@ -49,8 +50,10 @@
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 賴維正. 保留所有權利。</p>
+      <p>&copy; 2025 賴維正. <span id="today-date"></span></p>
     </div>
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
