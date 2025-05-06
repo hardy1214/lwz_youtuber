@@ -2,41 +2,77 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>我的個人網頁</title>
+  <title>賴維正的個人部落格</title>
   <style>
     body {
       font-family: "Microsoft JhengHei", sans-serif;
-      background-color: #f0f8ff;
-      margin: 20px;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
     }
-    h1 {
-      color: #2c3e50;
-    }
-    .profile {
-      max-width: 600px;
-      margin: auto;
-      background: white;
+    header {
+      background-color: #333;
+      color: white;
       padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
-    img {
-      max-width: 100%;
-      border-radius: 10px;
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    article {
+      background-color: #f2f2f2;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <div class="profile">
-    <h1>你好，我是維正！</h1>
-    <img src="https://via.placeholder.com/400x200.png?text=我的照片" alt="個人照片">
-    <p>我想要成為網紅！</p>
-    <h2>我的興趣</h2>
-    <ul>
-      <li>彈電吉他</li>
-      <li>直播</li>
-    </ul>
-    <p>歡迎來信聯絡我：<a href="mailto:example@email.com">example@email.com</a></p>
-  </div>
+  <header>
+    <h1>賴維正的部落格</h1>
+    <p>身心障礙者．生活分享．YouTuber</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>最新文章</h2>
+
+      <article>
+        <h3>我的故事：從挑戰中找到力量</h3>
+        <p>大家好，我是賴維正。我是一名身心障礙者，也是一位家庭照顧者。在這個部落格，我會分享我的生活經驗、心路歷程，還有一些日常觀察。</p>
+        <a href="#">閱讀更多...</a>
+      </article>
+
+      <article>
+        <h3>【遊戲實況】Roblox 的快樂時光</h3>
+        <p>雖然我說過我不再實況遊戲，但最近又回去玩了 Roblox，真的很紓壓，也想分享給大家看看。</p>
+        <a href="#">閱讀更多...</a>
+      </article>
+    </section>
+
+    <section>
+      <h2>賴維正的 YouTube 頻道</h2>
+      <p>歡迎訂閱我的 YouTube 頻道：<a href="https://www.youtube.com/@LAIWEIZHENG2024" target="_blank">https://www.youtube.com/@LAIWEIZHENG2024</a></p>
+
+      <!-- 嵌入一部影片，如果你知道影片ID可以換掉下面這個 -->
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </section>
+  </main>
 </body>
 </html>
