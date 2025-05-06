@@ -3,76 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>賴維正的個人部落格</title>
-  <style>
-    body {
-      font-family: "Microsoft JhengHei", sans-serif;
-      background-color: #fdfdfd;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-    article {
-      background-color: #f2f2f2;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    iframe {
-      width: 100%;
-      max-width: 560px;
-      height: 315px;
-      border: none;
-      border-radius: 8px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
-    <h1>賴維正的部落格</h1>
-    <p>身心障礙者．生活分享．YouTuber</p>
+    <div class="container">
+      <h1>賴維正的部落格</h1>
+      <p>身心障礙者．生活故事．YouTube 創作者</p>
+    </div>
   </header>
 
-  <main>
-    <section>
+  <main class="container">
+    <section class="intro">
+      <h2>關於我</h2>
+      <p>大家好，我是賴維正。我來自低收入戶家庭，是一位家庭照顧者與身心障礙者。我透過影片與文字分享生活點滴，也希望能帶給大家一點正能量。</p>
+    </section>
+
+    <section class="articles">
       <h2>最新文章</h2>
 
       <article>
-        <h3>我的故事：從挑戰中找到力量</h3>
-        <p>大家好，我是賴維正。我是一名身心障礙者，也是一位家庭照顧者。在這個部落格，我會分享我的生活經驗、心路歷程，還有一些日常觀察。</p>
+        <h3>📌 我的故事：從逆境中學會堅持</h3>
+        <p>在面對身體與生活挑戰的過程中，我學會了耐心與希望，這裡是我的真實人生紀錄。</p>
         <a href="#">閱讀更多...</a>
       </article>
 
       <article>
-        <h3>【遊戲實況】Roblox 的快樂時光</h3>
-        <p>雖然我說過我不再實況遊戲，但最近又回去玩了 Roblox，真的很紓壓，也想分享給大家看看。</p>
+        <h3>🎮 Roblox 遊戲直播日記</h3>
+        <p>雖然曾說過不再實況，但 Roblox 的世界太吸引人了！我又忍不住開台啦～</p>
         <a href="#">閱讀更多...</a>
       </article>
     </section>
 
-    <section>
-      <h2>賴維正的 YouTube 頻道</h2>
-      <p>歡迎訂閱我的 YouTube 頻道：<a href="https://www.youtube.com/@LAIWEIZHENG2024" target="_blank">https://www.youtube.com/@LAIWEIZHENG2024</a></p>
+    <section class="youtube">
+      <h2>📺 我的 YouTube 頻道</h2>
+      <p>歡迎訂閱：<a href="https://www.youtube.com/@LAIWEIZHENG2024" target="_blank">賴維正的 YouTube 頻道</a></p>
 
-      <!-- 嵌入一部影片，如果你知道影片ID可以換掉下面這個 -->
-      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube Video" allowfullscreen></iframe>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 賴維正. 保留所有權利。</p>
+    </div>
+  </footer>
 </body>
 </html>
